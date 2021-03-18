@@ -1,0 +1,55 @@
+{
+  "name": "proxx",
+  "description": "Start a quick proxy on a port",
+  "version": "1.0.0",
+  "author": "Pablo Varela <pablo@pablopunk.com>",
+  "bugs": {
+    "url": "https://github.com/pablopunk/proxx/issues",
+    "email": "pablo@pablopunk.com"
+  },
+  "contributors": [
+    "Pablo Varela <pablo@pablopunk.com>"
+  ],
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "mri": "^1.1.6"
+  },
+  "devDependencies": {
+    "prettier": "*",
+    "pretty-quick": "*",
+    "husky": "*",
+    "eslint": "*"
+  },
+  "homepage": "https://github.com/pablopunk/proxx",
+  "keywords": [
+    "proxy",
+    "network",
+    "redirect",
+    "express",
+    "cli",
+    "command",
+    "tool"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablopunk/proxx"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js .",
+    "lint-fix": "eslint --fix --ext .js ."
+  }
+}
