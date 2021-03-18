@@ -1,7 +1,7 @@
 {
   "name": "proxx",
   "description": "Start a quick proxy on a port",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Pablo Varela <pablo@pablopunk.com>",
   "bugs": {
     "url": "https://github.com/pablopunk/proxx/issues",
